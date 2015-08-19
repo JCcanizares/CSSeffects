@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "customstyle.css",
+  "sources": [
+    "customstyle.scss",
+    "variables.scss",
+    "effects.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAUA,IAAI,CAAA;EACA,UAAU,ECTR,OAAO;ECDX,qBAAqB,EFWI,IAAI;EEV1B,kBAAkB,EFUI,IAAI;EETzB,iBAAiB,EFSI,IAAI;EERxB,gBAAgB,EFQI,IAAI;EEPrB,aAAa,EFOI,IAAI,GAF1B",
+  "names": []
+}
