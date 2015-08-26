@@ -1,3 +1,11 @@
+@mixin trans{
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+    
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -6,28 +14,3 @@
           border-radius: $radius;
 }
 
-@mixin slideup{
-
-    background:#1CC1F7;
-
-}
-    
-
-/* TWITTER =========================================== */
-#twitter         { background:#1CC1F7; }
-
-    /* twitter rectangles =================================================== */
-    #twitter-rectangle .tw-outside         { background:#0081b7; display:block; height:55px; position:relative; }
-    
-    #twitter-rectangle .tw-text, #twitter-rectangle .tw-click { cursor:pointer; display:block; height:100%; padding-top:15px; position:absolute; width:100%; 
-        transition:0.3s ease all;
-    }
-    #twitter-rectangle .tw-text            { font-size:20px; font-weight:700; z-index:9999; }
-    #twitter-rectangle .tw-click           { z-index:8888; }
-    
-    /* twitter 1 ------------------------------------- */
-    #tw-1                   { overflow:hidden;  }
-    #tw-1 .tw-click         { margin-top:-100px; }
-    
-    #tw-1:hover .tw-text      { margin-top:100px; }
-    #tw-1:hover .tw-click     { margin-top:0; }
