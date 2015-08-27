@@ -7,12 +7,12 @@
   -o-border-radius: 20px;
   border-radius: 20px; }
 
-/* line 21, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 18, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 ul {
   margin: 30px auto;
   text-align: center; }
 
-/* line 26, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 23, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 li {
   list-style: none;
   position: relative;
@@ -20,8 +20,11 @@ li {
   width: 100px;
   height: 100px; }
 
-/* line 54, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 32, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .round {
+  background-color: red;
+  color: #990000;
+  border-color: rgba(179, 0, 0, 0.8);
   display: block;
   position: absolute;
   left: 0;
@@ -43,70 +46,60 @@ li {
   z-index: 1;
   border-width: 4px;
   border-style: solid; }
+  /* line 50, /Users/juancarlos/GitHub/CSSeffects/css/effects.scss */
+  .round:hover {
+    color: red;
+    width: 130%;
+    height: 130%;
+    left: -15%;
+    top: -15%;
+    font-size: 33px;
+    padding-top: 38px;
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    border-size: 10px;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); }
 
-/* line 80, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
-.round:hover {
-  width: 130%;
-  height: 130%;
-  left: -15%;
-  top: -15%;
-  font-size: 33px;
-  padding-top: 38px;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  -o-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  z-index: 2;
-  border-size: 10px;
-  -webkit-transform: rotate(-360deg);
-  -moz-transform: rotate(-360deg);
-  -o-transform: rotate(-360deg);
-  transform: rotate(-360deg); }
-
-/* line 99, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
-a.red {
-  background-color: #ef3932;
-  color: #85201c;
-  border-color: rgba(133, 32, 28, 0.2); }
-
-/* line 105, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
-a.red:hover {
-  color: #ef3932; }
-
-/* line 109, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 36, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 a.green {
   background-color: #0197ab;
   color: #003f47;
   border-color: rgba(0, 63, 71, 0.2); }
 
-/* line 115, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 42, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 a.green:hover {
   color: #0197ab; }
 
-/* line 119, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 46, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 a.yellow {
   background-color: #fce301;
   color: #992600;
   border-color: rgba(153, 38, 0, 0.2); }
 
-/* line 125, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 52, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 a.yellow:hover {
   color: #fce301; }
 
-/* line 129, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 56, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .round span.round {
   display: block;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   font-size: 1px;
   border: none;
   padding: 40% 20% 0 20%;
   color: #fff; }
 
-/* line 142, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 66, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .round span:hover {
   opacity: .85;
   font-size: 16px;
@@ -115,15 +108,15 @@ a.yellow:hover {
   -o-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
 
-/* line 151, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 75, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .green span {
   background: rgba(0, 63, 71, 0.7); }
 
-/* line 155, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 79, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .red span {
   background: rgba(133, 32, 28, 0.7); }
 
-/* line 159, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
+/* line 83, /Users/juancarlos/GitHub/CSSeffects/css/customstyle.scss */
 .yellow span {
   background: rgba(161, 145, 0, 0.7); }
 
